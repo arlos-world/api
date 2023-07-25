@@ -24,11 +24,11 @@
           {
             "name": "limit",
             "in": "query",
-            "description": "How many items to return at one time (max 100)",
+            "description": "How many items to return at one time (max 300)",
             "required": false,
             "schema": {
               "type": "integer",
-              "maximum": 100,
+              "maximum": 300,
               "format": "int32"
             }
           }
